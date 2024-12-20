@@ -1,5 +1,4 @@
-# Ben Merlotti  
-**Creative Problem-Solver | Full-Stack Designer | Aspiring Software Developer**  
+# Ben Merlotti  **Creative Problem-Solver | Full-Stack Designer | Aspiring Software Developer**  
 
 ## About Me  
 Hi, I'm Ben! I'm a multidisciplinary creator with a passion for crafting engaging digital experiences. My journey spans video editing, motion graphics, and graphic design, and I've recently ventured into web development with a focus on full-stack projects. I'm always eager to learn, create, and solve challenges in innovative ways.
