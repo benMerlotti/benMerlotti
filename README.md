@@ -11,7 +11,7 @@ Hi, I'm Ben! I'm a multidisciplinary creator with a passion for crafting engagin
 
 ### [FlexTrack](https://github.com/benMerlotti/FlexTrack_Capstone)  
 A workout tracker web application designed to help users create and manage routines, track progress, and stay consistent with their fitness goals.  
-- **Tech Stack**: React, JSON Server, Bootstrap  
+- **Tech Stack**: React, JSON Server
 - **Key Features**:  
   - Create custom workout routines  
   - Track sets, reps, and weights  
