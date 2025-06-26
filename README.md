@@ -7,7 +7,9 @@ Hi, I'm Ben! I'm a multidisciplinary creator with a passion for crafting engagin
 - **LinkedIn**: [Connect with me](https://www.linkedin.com/in/benmerlotti/)  
 - **Portfolio**: Coming soon!  
 
-## Projects  
+## Projects
+
+### [Movie Tv Recommender] (https://github.com/benMerlotti/MovieTvRecommender)
 
 ### [Tequio Business Ops Manager](https://github.com/benMerlotti/TequioDemoTrack_Capstone)  
 A web application designed to manage customer, employee, product, and purchase data while providing actionable insights and streamlined operations.
