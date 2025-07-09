@@ -9,6 +9,17 @@ Hi, I'm Ben! I'm a multidisciplinary creator with a passion for crafting engagin
 
 ## Projects
 
+### [Druid Video Sales Portal](https://github.com/benMerlotti/Druid_ClipMarketplace)
+A secure, client-facing web application built to allow a video production company (Druid) to showcase and sell event footage directly to their clients. This project demonstrates a full-stack development workflow, integrating a modern frontend with a Python backend and leveraging core AWS cloud services for scalable and secure file storage and delivery.
+- **Tech Stack**: Python, Flask, React.js, AWS (S3, IAM), Boto3, JavaScript (ES6+), HTML/CSS
+- **Key Features**
+  - Dynamic S3 Integration: The Flask backend communicates directly with AWS S3 to dynamically list video objects based on a client-specific folder structure (e.g., ClientName/EventName/).
+  - Secure, On-the-Fly Access: Implements a secure delivery mechanism by generating time-limited S3 Pre-signed URLs. This allows clients to view private videos without exposing the source files or requiring public bucket access.
+  - RESTful API Backend: A Flask-based API serves video metadata to the frontend, acting as a secure intermediary between the client's browser and AWS services.
+  - Interactive Frontend: A client-side application built with React that fetches and displays a list of available videos, providing a user-friendly interface for browsing content.
+  - Cloud-Native Foundation: Utilizes AWS IAM for creating dedicated service users and fine-grained permission policies, adhering to the principle of least privilege for enhanced security.
+- **Learning Focus**: Full-stack application architecture, REST API design and development (Flask), frontend state management (React Hooks), integration with major cloud services (AWS S3), cloud security best practices (IAM roles/users, pre-signed URLs), and managing a multi-service development environment (backend server, frontend dev server, cloud services).
+
 ### [Movie Tv Recommender](https://github.com/benMerlotti/Movie-Tv-Recommender)
 A content-based movie and TV show recommendation system built in Python. This project demonstrates an end-to-end data pipeline, from data collection via the TMDB API, through data cleaning and preparation, to implementing a recommendation engine using TF-IDF vectorization and cosine similarity.
 - **Tech Stack**: Python, scikit-learn, requests, JSON
