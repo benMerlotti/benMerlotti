@@ -9,6 +9,17 @@ Hi, I'm Ben! I'm a multidisciplinary creator with a passion for crafting engagin
 
 ## Projects
 
+### [Automated Job Scraper & Notifier](https://github.com/benMerlotti/job_board_web_scraper)
+An autonomous Python application designed to streamline the job search process by automatically scraping new job listings from a target website and delivering consolidated email notifications. This project showcases a complete data pipeline, from web data extraction and persistent storage to automated notification, demonstrating key skills in backend development, data handling, and system automation.
+- **Tech Stack**: Python, BeautifulSoup, Requests, SQLite, smtplib
+- **Key Features**
+  - Robust Web Scraping: Utilizes the BeautifulSoup library to parse and navigate the HTML structure of a job board, reliably extracting key details from listings, including title, company, location, experience level, and posting date. The scraper is designed to be resilient to minor HTML changes by targeting structural elements over brittle text content.
+  - Persistent Data Storage: Scraped job data is stored in a local SQLite database, creating a persistent record of all findings. This allows the system to track which jobs have been seen and processed over time.
+  - Duplicate Prevention: Leverages SQL's UNIQUE constraint on job links to automatically prevent duplicate entries, ensuring the integrity of the collected data. A stateful INSERT OR IGNORE strategy is used for efficient data insertion.
+  - Stateful Notification System: The application intelligently queries the database to identify only new, un-notified job listings (where is_notified = 0). After a notification is sent, the database is updated to mark those jobs as notified, ensuring users only receive alerts for fresh opportunities.
+  - Automated Email Alerts: Integrates with Python's built-in smtplib to automatically format the new job listings into a clean HTML email and send it to a designated recipient. Secure authentication is handled using App Passwords for services like Gmail.
+- **Learning Focus**: Data acquisition from unstructured web sources (web scraping), HTML parsing and navigation (BeautifulSoup), database design and management (SQLite), writing clean and efficient SQL queries in Python, building stateful applications, system automation logic, and interacting with external services (SMTP for email).
+
 ### [Druid Video Sales Portal](https://github.com/benMerlotti/Druid_ClipMarketplace)
 A secure, client-facing web application built to allow a video production company (Druid) to showcase and sell event footage directly to their clients. This project demonstrates a full-stack development workflow, integrating a modern frontend with a Python backend and leveraging core AWS cloud services for scalable and secure file storage and delivery.
 - **Tech Stack**: Python, Flask, React.js, AWS (S3, IAM), Boto3, JavaScript (ES6+), HTML/CSS
